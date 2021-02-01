@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
     text: { fontSize: 11, width: 335 },
     cardView: { marginTop: 5 },
     view: {marginLeft: 5, width: 350},    
-    image: { width: 12, height: 12, },
+    image: { width: 12, height: 12, opacity: '0.5' },
     experienceTitle: { fontSize: 22, fontWeight: "bold", borderBottom: "1 solid black"},
   });
 
