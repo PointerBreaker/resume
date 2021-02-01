@@ -4,7 +4,7 @@ import PDF from "./components/PDFDocument";
 function App() {
   return (
     <>
-    <PDFDownloadLink document={<PDF/>} fileName="fee_acceptance.pdf">
+    <PDFDownloadLink document={<PDF/>} fileName="resume.pdf">
       {({ blob, url, loading, error }) => (loading ? 'Loading document...' : 'Download now!')}
     </PDFDownloadLink>
   </>

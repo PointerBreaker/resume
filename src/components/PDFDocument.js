@@ -1,16 +1,17 @@
 import { Document, Page, View, Text, StyleSheet} from "@react-pdf/renderer";
-import Rating from "./Rating";
-
-
+import Skills from "./SkillSection";
+import Bio from "./Bio";
 
 export default function PDF() {
   return (
     <Document author="Jeroen Kooiman">
       <Page size="A4">    
-          <Rating amount={4}>      </Rating>
-          <Rating amount={5}/>
-          <Rating amount={6} half/>
-          <Rating amount={7} half/>
+          <Bio />
+          {/* <Summary /> */}
+          {/* <Experience /> */}
+          {/* <Education /> */}        
+          {/* <Other /> */}
+          <Skills />
       </Page>
     </Document>
   );
