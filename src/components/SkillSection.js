@@ -21,6 +21,8 @@ export default function Skills() {
             <SkillItem amount={4} skillName={"Middleware"} half/>
             <SkillItem amount={4} skillName={"Back-end"} half/>
             <SkillItem amount={2} skillName={"Server management"} half/>
+            <SkillItem amount={3} skillName={"Git"} half/>
+            <SkillItem amount={2} skillName={"DevOps"}/>
             <SkillItem amount={4} skillName={"Dutch"}/>
             <SkillItem amount={4} skillName={"English"}/>
           </View>

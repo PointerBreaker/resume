@@ -8,7 +8,6 @@ const styles = StyleSheet.create({
   });
 
 export default function Bio() {
-    
     return (
            <View style={styles.viewColumn}>
             <BioItem src={"/images/name.png"} text={"Jeroen Kooiman"}/>

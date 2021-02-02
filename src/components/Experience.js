@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     titleDateView: { alignItems: "flex-start", display: "flex", flexDirection: "row", width: 350},
     date: { fontSize: 9, color: "#777", alignSelf: "flex-end" },
     text: { fontSize: 11, width: 335 },
-    cardView: { marginTop: 5 },
+    cardView: { marginTop: 5, marginBottom: 5 },
     image: { width: 12, height: 12, opacity: '0.5', marginRight: 5 },
     experienceTitle: { fontSize: 22, fontWeight: "bold", borderBottom: "1 solid black"},
   });
@@ -25,10 +25,10 @@ export default function Experience() {
                         <Text>Software Engineer</Text>
                     </View>
                 </View>
-                <BulletPoint> Phasellus a est mi. Suspendisse potenti. Nunc sapien libero,
-                vulputate vitae condimentum et, auctor vitae tellus. Nam sed ligula eget eros pharetra aliquam 
-                in sit amet arcu. Suspendisse potenti.</BulletPoint>
-            <BulletPoint>Test Bullet point2</BulletPoint>
+                <BulletPoint>Working on a new software product based on their current product.</BulletPoint>
+                <BulletPoint>React</BulletPoint>
+                <BulletPoint>.NET</BulletPoint>
+                <BulletPoint>MSSQL</BulletPoint>
             </View>
             <View style={styles.cardView}>
                 <View style={styles.titleDateView}>
@@ -38,10 +38,9 @@ export default function Experience() {
                         <Text>Software Engineering Intern</Text>
                     </View>
                 </View>
-                <BulletPoint> Phasellus a est mi. Suspendisse potenti. Nunc sapien libero,
-                vulputate vitae condimentum et, auctor vitae tellus. Nam sed ligula eget eros pharetra aliquam 
-                in sit amet arcu. Suspendisse potenti.</BulletPoint>
-            <BulletPoint>Test Bullet point2</BulletPoint>
+                <BulletPoint>Securing the endpoints of their IaaS software.</BulletPoint>
+                <BulletPoint>Frotn</BulletPoint>
+                <BulletPoint>.NET</BulletPoint>
             </View>
             <View style={styles.cardView}>
                 <View style={styles.titleDateView}>
@@ -53,10 +52,8 @@ export default function Experience() {
                         <Text>Student Assistant teacher</Text>
                     </View>
                 </View>
-                <BulletPoint> Phasellus a est mi. Suspendisse potenti. Nunc sapien libero,
-                vulputate vitae condimentum et, auctor vitae tellus. Nam sed ligula eget eros pharetra aliquam 
-                in sit amet arcu. Suspendisse potenti.</BulletPoint>
-            <BulletPoint>Test Bullet point2</BulletPoint>
+                <BulletPoint>Giving classes in Cyber security for first year students and answering any question they have about the material</BulletPoint>
+                <BulletPoint>Guiding First year students and helping with any question they may have.</BulletPoint>
             </View>
             <View style={styles.cardView}>
             <View style={styles.titleDateView}>
@@ -66,10 +63,11 @@ export default function Experience() {
                     <Text>Laravel Developer (Back-end)</Text>
                 </View>
             </View>
-            <BulletPoint> Phasellus a est mi. Suspendisse potenti. Nunc sapien libero,
-                vulputate vitae condimentum et, auctor vitae tellus. Nam sed ligula eget eros pharetra aliquam 
-                in sit amet arcu. Suspendisse potenti.</BulletPoint>
-            <BulletPoint>Test Bullet point2</BulletPoint>
+            <BulletPoint>Extending the features of their backoffice portal software and automating the process of their business logic</BulletPoint>
+            <BulletPoint>Fuel</BulletPoint>
+            <BulletPoint>PHP / Laravel / COmposer</BulletPoint>
+            <BulletPoint>MySQL</BulletPoint>
+            <BulletPoint>.NET</BulletPoint>            
             </View>
             <View style={styles.cardView}>
                 <View style={styles.titleDateView}>
@@ -79,10 +77,10 @@ export default function Experience() {
                         <Text>Software Engineering Intern</Text>
                     </View>
                 </View>
-                <BulletPoint> Phasellus a est mi. Suspendisse potenti. Nunc sapien libero,
-                vulputate vitae condimentum et, auctor vitae tellus. Nam sed ligula eget eros pharetra aliquam 
-                in sit amet arcu. Suspendisse potenti.</BulletPoint>
-            <BulletPoint>Test Bullet point2</BulletPoint>
+                <BulletPoint>Adding authentication and authorization to their boilerplate software.</BulletPoint>
+                <BulletPoint>.NET</BulletPoint>
+                <BulletPoint>MSSQL</BulletPoint>
+                <BulletPoint>Angular</BulletPoint>
             </View>
         </View>        
     );
