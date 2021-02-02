@@ -4,7 +4,7 @@ import { Image, View, StyleSheet } from "@react-pdf/renderer";
 const styles = StyleSheet.create({
   image: { width: 12, height: 12, },
   imageHalf: { width: 6, height: 12, },
-  view: { display: "flex", flexDirection: "row", justifyContent: "space-between"},
+  view: { display: "flex", flexDirection: "row", justifyContent: "space-between", },
  });
 
 function Rating({amount, half}) {
