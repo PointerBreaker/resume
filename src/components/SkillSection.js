@@ -3,7 +3,7 @@ import {View, Text, StyleSheet} from "@react-pdf/renderer";
 
 const styles = StyleSheet.create({
     block: { },
-    text: { fontSize: 12, width: 135},
+    text: { fontSize: 12, width: 125},
     view: { alignItems: "flex-start", display: "flex", flexDirection: "row", justifyContent: "start", width: 175, marginTop: 3},    
     title: { fontSize: 22, fontWeight: "bold", borderBottom: "1 solid black"},
   });
@@ -22,7 +22,7 @@ export default function Skills() {
             <SkillItem amount={4} skillName={"Back-end"} half/>
             <SkillItem amount={2} skillName={"Server management"} half/>
             <SkillItem amount={3} skillName={"Git"} half/>
-            <SkillItem amount={2} skillName={"DevOps"}/>
+            <SkillItem amount={2} skillName={"DevOPS"}/>
             <SkillItem amount={4} skillName={"Dutch"}/>
             <SkillItem amount={4} skillName={"English"}/>
           </View>

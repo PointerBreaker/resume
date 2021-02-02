@@ -4,6 +4,7 @@ import Bio from "./Bio";
 import Experience from "./Experience";
 import Summary from "./Summary";
 import Education from "./Education";
+import Other from "./Other";
 
 Font.register({family: "montserrat", src: "/fonts/Montserrat/Montserrat-Regular.ttf" }, )
 Font.register({family: "montserrat", src: "/fonts/Montserrat/Montserrat-Bold.ttf", fontWeight: "bold" })
@@ -21,7 +22,7 @@ export default function PDF() {
     <Document author="Jeroen Kooiman">
       <Page style={{backgroundColor: "#FFF"}} size="A4">  
 
-          {/* <Other /> */}
+          
           <View style={styles.leftRightView}>
           <View>
             <View style={styles.summaryView}>
@@ -35,6 +36,7 @@ export default function PDF() {
               <Bio />
               <Skills />
               <Education />
+              <Other />
             </View>
           </View>
           </View>
