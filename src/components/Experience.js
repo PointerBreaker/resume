@@ -25,10 +25,8 @@ export default function Experience() {
                         <Text>Software Engineer</Text>
                     </View>
                 </View>
-                <BulletPoint>Working on a new software product based on their current product.</BulletPoint>
-                <BulletPoint>React</BulletPoint>
-                <BulletPoint>.NET</BulletPoint>
-                <BulletPoint>MSSQL</BulletPoint>
+                <BulletPoint>Building a new version of the Relatics-software from scratch using, React, MSSQL, C#/.NET(Core).</BulletPoint>
+                <BulletPoint>Worked on Architecture, Authentication, Authorization, Data History, Data filtering / Management.</BulletPoint>
             </View>
             <View style={styles.cardView}>
                 <View style={styles.titleDateView}>
@@ -39,8 +37,9 @@ export default function Experience() {
                     </View>
                 </View>
                 <BulletPoint>Securing the endpoints of their IaaS software.</BulletPoint>
-                <BulletPoint>Frotn</BulletPoint>
-                <BulletPoint>.NET</BulletPoint>
+                <BulletPoint>Using .NET 4.7 and Angular, an authentication flow based on LDAP and ADFS was built.</BulletPoint>
+                <BulletPoint>Built a system using attributes and reflection which allows the encryption of objects in memory and in storage.</BulletPoint>
+                <BulletPoint>Additionally built an architecture for migration of current endpoints and creation of new endpoints.</BulletPoint>
             </View>
             <View style={styles.cardView}>
                 <View style={styles.titleDateView}>
@@ -53,6 +52,9 @@ export default function Experience() {
                     </View>
                 </View>
                 <BulletPoint>Giving classes in Cyber security for first year students and answering any question they have about the material</BulletPoint>
+                <BulletPoint>
+                     Taught first year students about Packet analysis, Attacks on Web applications (e.g. XSS, SQLI, CSRF, etc.) and log analysis.
+                </BulletPoint>
                 <BulletPoint>Guiding First year students and helping with any question they may have.</BulletPoint>
             </View>
             <View style={styles.cardView}>
@@ -63,11 +65,9 @@ export default function Experience() {
                     <Text>Laravel Developer (Back-end)</Text>
                 </View>
             </View>
-            <BulletPoint>Extending the features of their backoffice portal software and automating the process of their business logic</BulletPoint>
-            <BulletPoint>Fuel</BulletPoint>
-            <BulletPoint>PHP / Laravel / COmposer</BulletPoint>
-            <BulletPoint>MySQL</BulletPoint>
-            <BulletPoint>.NET</BulletPoint>            
+            <BulletPoint>Extending the features of their backoffice portal software and automating the process of their business logic.</BulletPoint>
+            <BulletPoint>Completely rebuilt the portal to a new version with PHP 7 and laravel (From Fuel).</BulletPoint>
+            <BulletPoint>Built a module for Wifi routers using PHP, MySQL, JS, and Radius. The software built would allow for remote management of the routers. This includes user management, data proxy (For data compression), black/whitelisting, etc.</BulletPoint>
             </View>
             <View style={styles.cardView}>
                 <View style={styles.titleDateView}>
@@ -78,9 +78,8 @@ export default function Experience() {
                     </View>
                 </View>
                 <BulletPoint>Adding authentication and authorization to their boilerplate software.</BulletPoint>
-                <BulletPoint>.NET</BulletPoint>
-                <BulletPoint>MSSQL</BulletPoint>
-                <BulletPoint>Angular</BulletPoint>
+                <BulletPoint>The architecture was built with various techniques including CQRS, IOC, DI among others.</BulletPoint>
+                <BulletPoint>The modules were built in .NET, Angular and the entity framework.</BulletPoint>
             </View>
         </View>        
     );
