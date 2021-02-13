@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     titleDateView: { alignItems: "flex-start", display: "flex", flexDirection: "row", width: 350},
     date: { fontSize: 8, color: "#777", alignSelf: "flex-end" },
     text: { fontSize: 10, width: 325, },
-    cardView: { marginTop: 5, marginBottom: 5 },
+    cardView: { marginTop: 10 },
     image: { width: 12, height: 12, opacity: '0.5', marginRight: 5 },
     experienceTitle: { fontSize: 22, fontWeight: "bold", color: "dodgerblue", borderBottom: "1 solid black"},
   });
