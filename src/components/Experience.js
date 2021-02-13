@@ -49,7 +49,7 @@ export default function Experience() {
                         <Text>Peercoach</Text>
                         <Text>Sept 2018 - Feb 2019</Text>
                         <Text>Student Assistant teacher</Text>
-                    </View>
+                    </View> 
                 </View>
                 <BulletPoint>Giving classes in Cyber security for first year students and answering any question they have about the material</BulletPoint>
                 <BulletPoint>
