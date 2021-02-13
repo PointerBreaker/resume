@@ -1,10 +1,10 @@
 import {View, Text, Link, Image, StyleSheet} from "@react-pdf/renderer";
 
 const styles = StyleSheet.create({
-  viewColumn: { display: "flex", flexDirection: "column", justifyContent: "space-between", marginTop: 6, marginBottom: 1},
+    viewColumn: { display: "flex", flexDirection: "column", justifyContent: "space-between", marginTop: 6, marginBottom: 7.5},
     text: { fontSize: 12, width: 160},
-    view: { alignItems: "flex-start", display: "flex", flexDirection: "row", justifyContent: "space-between", width: 175, marginTop: 3},
-    image: { width: 12, height: 12, },
+    view: { alignItems: "flex-start", display: "flex", flexDirection: "row", justifyContent: "space-between", width: 175, marginTop: 3.5},
+    image: { width: 12, height: 12 },
   });
 
 export default function Bio() {

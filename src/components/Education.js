@@ -48,8 +48,8 @@ function EducationItem({institutionName, className, level, minor, date, children
 
 function Certificate({ name, date})
 {
-    return(<View style={{...styles.titleDateView, ...{justifyContent: "space-between"}} }>
-        <Text style={{...styles.date, ...{marginRight: 0, marginTop: 3}}}>{name}</Text>
+    return(<View style={styles.titleDateView}>
+        <Text style={{...styles.date, ...{marginRight: 0, marginTop: 3, width: 125}}}>{name}</Text>
         <Text style={styles.date}>{date}</Text>
     </View>);
 }

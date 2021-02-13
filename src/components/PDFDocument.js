@@ -11,35 +11,36 @@ Font.register({family: "montserrat", src: "/fonts/Montserrat/Montserrat-Bold.ttf
 
 const styles = StyleSheet.create({
   page: {fontFamily: "montserrat"},
-  summaryView: { marginTop: 6, alignSelf: "flex-end", display: "flex", flexDirection: "row", justifyContent: "space-between", width: 350},
-  leftRightView: {display: "flex", flexDirection: "row", justifyContent: "space-between"},
+  summaryView: { marginTop: 6, alignSelf: "flex-end", display: "flex", flexDirection: "row", justifyContent: "space-between", width: 350, paddingBottom: 10 },
+  leftRightView: {display: "flex", flexDirection: "row", justifyContent: "space-between", marginLeft: 5 },
   skills: { marginRight: 25, paddingRight: 15},
   rightView: { backgroundColor: "#CCC", height: 841},
-  profilePicture: { width: 100, height: 100 },
-  rightPanel: {marginLeft: 5}
+  profilePicture: { width: 100, height: 100, alignSelf: "center" },
+  rightPanel: {marginLeft: 10},
+  pageStyle: {backgroundColor: "#FFF"}
 });
 
 // A4 595 x 
 export default function PDF() {
   return (
     <Document author="Jeroen Kooiman">
-      <Page style={{backgroundColor: "#FFF"}} size="A4">  
+      <Page style={styles.pageStyle} size="A4">  
           <View style={styles.leftRightView}>
-          <View>
-            <View style={styles.summaryView}>
-              <Image style={styles.profilePicture}src="/images/pfp.jpg"/>
-              <Summary />  
+            <View>
+              <View style={styles.summaryView}>
+                <Image style={styles.profilePicture}src="/images/pfp.jpg"/>
+                <Summary />  
+              </View>
+              <Experience />
+            </View>                    
+            <View style={styles.rightView}>
+              <View style={styles.rightPanel}>
+                <Bio />
+                <Skills />
+                <Education />
+                <Other />
+              </View>
             </View>
-            <Experience />
-          </View>                    
-          <View style={styles.rightView}>
-            <View style={styles.rightPanel}>
-              <Bio />
-              <Skills />
-              <Education />
-              <Other />
-            </View>
-          </View>
           </View>
       </Page>
     </Document>

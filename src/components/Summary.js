@@ -3,7 +3,7 @@ import {View, Text, StyleSheet} from "@react-pdf/renderer";
 const styles = StyleSheet.create({
     view: {marginLeft: 5, width: 300},    
     title: { fontSize: 18, fontWeight: "bold", color: "black", },    
-    text: { marginTop: 5, fontSize: 11, width: 250 },
+    text: { marginTop: 5, fontSize: 11, width: 235 },
     cardView: { marginTop: 5 },
     summaryTitle: { fontSize: 22, fontWeight: "bold"},
   });
