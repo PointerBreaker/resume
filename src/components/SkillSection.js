@@ -3,9 +3,9 @@ import {View, Text, StyleSheet} from "@react-pdf/renderer";
 
 const styles = StyleSheet.create({
     block: { },
-    text: { fontSize: 12, width: 125},
+    text: { fontSize: 11, width: 125},
     view: { alignItems: "flex-start", display: "flex", flexDirection: "row", justifyContent: "start", width: 175, marginTop: 3.5},    
-    title: { fontSize: 22, fontWeight: "bold", borderBottom: "1 solid black"},
+    title: { fontSize: 22, fontWeight: "bold", borderBottom: "1 solid black", color: "dodgerblue"},
   });
 
 export default function Skills() {

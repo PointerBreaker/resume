@@ -2,14 +2,14 @@ import {View, Text, Image, StyleSheet} from "@react-pdf/renderer";
 
 const styles = StyleSheet.create({
     view: {marginLeft: 5, width: 350, backgroundColor: "#fff"},    
-    title: { fontSize: 18, fontWeight: "bold", color: "black", alignSelf: "center", width: 225},
+    title: { fontSize: 18, fontWeight: "bold", alignSelf: "center", width: 225},
     subtitle: { fontSize: 12, fontWeight: "bold", color: "black", alignSelf: "center"},
     titleDateView: { alignItems: "flex-start", display: "flex", flexDirection: "row", width: 350},
-    date: { fontSize: 9, color: "#777", alignSelf: "flex-end" },
-    text: { fontSize: 11, width: 325, },
+    date: { fontSize: 8, color: "#777", alignSelf: "flex-end" },
+    text: { fontSize: 10, width: 325, },
     cardView: { marginTop: 5, marginBottom: 5 },
     image: { width: 12, height: 12, opacity: '0.5', marginRight: 5 },
-    experienceTitle: { fontSize: 22, fontWeight: "bold", borderBottom: "1 solid black"},
+    experienceTitle: { fontSize: 22, fontWeight: "bold", color: "dodgerblue", borderBottom: "1 solid black"},
   });
 
 export default function Experience() {

@@ -10,9 +10,8 @@ Font.register({family: "montserrat", src: "/fonts/Montserrat/Montserrat-Regular.
 Font.register({family: "montserrat", src: "/fonts/Montserrat/Montserrat-Bold.ttf", fontWeight: "bold" });
 
 const styles = StyleSheet.create({
-  page: {fontFamily: "montserrat"},
   summaryView: { marginTop: 6, alignSelf: "flex-end", display: "flex", flexDirection: "row", justifyContent: "space-between", width: 350, paddingBottom: 10 },
-  leftRightView: {display: "flex", flexDirection: "row", justifyContent: "space-between", marginLeft: 5 },
+  leftRightView: {fontFamily: "montserrat", display: "flex", flexDirection: "row", justifyContent: "space-between", marginLeft: 5 },
   skills: { marginRight: 25, paddingRight: 15},
   rightView: { backgroundColor: "#CCC", height: 841},
   profilePicture: { width: 100, height: 100, alignSelf: "center" },
@@ -24,7 +23,7 @@ const styles = StyleSheet.create({
 export default function PDF() {
   return (
     <Document author="Jeroen Kooiman">
-      <Page style={styles.pageStyle} size="A4">  
+      <Page size="A4">  
           <View style={styles.leftRightView}>
             <View>
               <View style={styles.summaryView}>

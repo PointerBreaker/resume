@@ -4,10 +4,10 @@ const styles = StyleSheet.create({
     view: {marginTop: 5, width: 225},    
     title: { fontSize: 15, fontWeight: "bold", color: "black", width: 125 },    
     titleDateView: { alignItems: "flex-start", display: "flex", flexDirection: "row", width: 225 },
-    date: { fontSize: 9, color: "#777", alignSelf: "center", marginRight: 5 },    
-    text: { marginTop: 5, fontSize: 11, width: 225, fontColor: "#777" },
+    date: { fontSize: 8, color: "#777", alignSelf: "center", marginRight: 5 },    
+    text: { marginTop: 5, fontSize: 10, width: 225, fontColor: "#777" },
     cardView: { marginTop: 8 },
-    educationTitle: { fontSize: 22, fontWeight: "bold", borderBottom: "1 solid black"},
+    educationTitle: { fontSize: 22, fontWeight: "bold", borderBottom: "1 solid black", color: "dodgerblue"},
   });
 
 export default function Education() {
