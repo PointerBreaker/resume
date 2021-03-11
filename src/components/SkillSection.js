@@ -22,7 +22,7 @@ export default function Skills() {
             <SkillItem amount={4} skillName={"Back-end"} half/>
             <SkillItem amount={2} skillName={"Server management"} half/>
             <SkillItem amount={3} skillName={"Git"} half/>
-            <SkillItem amount={2} skillName={"DevOPS"}/>
+            <SkillItem amount={2} skillName={"DevOPS"} half/>
             <SkillItem amount={4} skillName={"Dutch"}/>
             <SkillItem amount={4} skillName={"English"}/>
           </View>
@@ -34,4 +34,4 @@ function SkillItem({amount, skillName, half})
     return (<>
                 <View style={styles.view}><Text style={styles.text}>{skillName}</Text><Rating amount={amount} half={half}/></View>
             </>);
-}
+} 
